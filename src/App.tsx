@@ -1,5 +1,5 @@
-import { AnimatePresence, motion } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Mail, MapPin, Download } from 'lucide-react';
+import React from 'react';
+import { AnimatePresence } from 'framer-motion';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
 import SkillsSection from './components/SkillsSection';
@@ -13,7 +13,7 @@ import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="relative overflow-hidden text-white">
       <div className="pointer-events-none absolute inset-x-0 top-0 h-96 bg-[radial-gradient(circle_at_top,_rgba(79,70,229,0.2),_transparent_45%)] blur-3xl" />
