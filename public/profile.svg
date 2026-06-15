@@ -1,0 +1,17 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" rx="180" fill="#0f172a"/>
+  <circle cx="360" cy="360" r="320" fill="url(#paint0_radial)"/>
+  <circle cx="360" cy="360" r="300" fill="#111827"/>
+  <circle cx="360" cy="360" r="260" fill="#111827" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="10"/>
+  <circle cx="360" cy="240" r="90" fill="#0ea5e9" opacity="0.12"/>
+  <path d="M270 510C270 437.565 327.565 380 400 380H520C592.435 380 650 437.565 650 510V540H270V510Z" fill="#22d3ee" fill-opacity="0.16"/>
+  <path d="M360 180C321.49 180 290 211.49 290 250C290 288.51 321.49 320 360 320C398.51 320 430 288.51 430 250C430 211.49 398.51 180 360 180Z" fill="#22d3ee" fill-opacity="0.16"/>
+  <path d="M327.5 481.5C327.5 444.861 355.861 416.5 392.5 416.5H462.5C499.139 416.5 527.5 444.861 527.5 481.5V512.5H327.5V481.5Z" fill="#22d3ee" fill-opacity="0.2"/>
+  <text x="360" y="640" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="48" font-weight="700">Manjunath</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(360 360) rotate(90) scale(320)">
+      <stop stop-color="#22d3ee" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#0f172a" stop-opacity="0.75"/>
+    </radialGradient>
+  </defs>
+</svg>
