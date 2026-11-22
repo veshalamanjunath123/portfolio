@@ -1,0 +1,46 @@
+// Edit your details here. Add live/GitHub URLs for each project below.
+export const profile = {
+  name: "Manjunath Veshala",
+  short: "MANJUNATH",
+  role: "Full Stack Developer",
+  tagline: "Building Java & Spring Boot backends and React front-ends, with a cybersecurity mindset.",
+  email: "manjunath.veshala@gmail.com",
+  phone: "+91 9121409856",
+  whatsapp: "https://wa.me/919121409856",
+  telegram: "https://t.me/ManjunathVeshala",
+  linkedin: "https://www.linkedin.com/in/manjunath03",
+  github: "https://github.com/veshalamanjunath123",
+  resume: "/Manjunath_Veshala_Resume.pdf",
+  location: "Hyderabad, Telangana, India",
+  summary: "Full Stack Developer with hands-on experience building Java backends with Spring Boot and JDBC/SQL, paired with React front-ends, including payment gateway integration and real-world deployment. Background in cybersecurity and network security analysis, with additional experience in Python, C, and C++. Seeking a full-stack developer, Java backend, or software engineering role.",
+  skills: [
+    ["Languages", "Java, Python, C, C++, SQL, JavaScript"],
+    ["Backend & Desktop", "Core Java, OOP, JDBC, Java AWT, PL/SQL, Data Structures, Spring Boot"],
+    ["Databases", "SQL, PL/SQL, MongoDB"],
+    ["Security", "Network Security, Ethical Hacking Fundamentals, Authentication & Authorisation, Security Reporting"],
+    ["Web", "HTML5, CSS3, Node.js, Express.js, REST APIs, React"],
+    ["Tools", "Git, GitHub, Maven, Postman, Docker"],
+  ],
+  experience: [
+    ["Full Stack Developer — Xevotech Private Limited", "Jul 2026 – Present", "Develop backend logic in Java with Spring Boot, build & integrate React front-ends, write SQL queries with JDBC, integrate payment gateways (Razorpay), debug and optimize code with Git, GitHub, Maven, and Postman."],
+    ["Full Stack Developer Intern — Tavasya Contracts Private Limited", "Jun 2026 – Jul 2026", "Developed and maintained backend modules in Java using OOP principles, worked with SQL databases through JDBC, and tested/debugged code across applications."],
+  ],
+  education: [
+    ["BE in Computer Science (Cyber Security)", "Chaitanya Bharathi Institute of Technology", "2025 – 2028"],
+    ["Diploma in Computer Science", "Government Polytechnic, Siddipet", "2022 – 2025"],
+  ],
+  certifications: [
+    ["Ethical Hacker", "Cisco Networking Academy"],
+    ["Oracle Cloud Infrastructure 2025 Certified Foundations Associate", "Oracle"],
+    ["MongoDB Java Developer Path", "MongoDB University"],
+    ["Cyber Job Simulation", "Deloitte Australia (Forage)"],
+  ],
+  projects: [
+    { name: "plant sphere", role: "Spring Boot · React · PostgreSQL · Docker", kind: "E-Commerce", href: "https://plantsphere.vercel.app/",
+      links: [{ icon: "🌐", label: "Live Demo", href: "https://plantsphere.vercel.app/" }, { icon: "⌥", label: "GitHub", href: "https://github.com/veshalamanjunath123/PLANT-SPHERE" }],
+      note: "Full-stack plant store with catalog, cart, wishlist and reviews. React (Vite) on Vercel, Dockerised Spring Boot API on Render." },
+    { name: "book a mechanic", role: "Java · AWT · JDBC · MySQL · Docker", kind: "Desktop App", href: "https://github.com/veshalamanjunath123/Book-A-Mechanic",
+      links: [{ icon: "🐳", label: "Run with Docker", href: "https://drive.google.com/drive/folders/1r6NgKq9-dzwe557HeI9F3roIXpQbB-CY?usp=sharing" }, { icon: "⌥", label: "GitHub", href: "https://github.com/veshalamanjunath123/Book-A-Mechanic" }],
+      note: "Service-booking desktop app connecting users with nearby mechanics, with authentication, CRUD workflows and validation. A pure Java desktop app can't be hosted like a website, so it ships with a Dockerfile to run it anywhere." },
+  ],
+};

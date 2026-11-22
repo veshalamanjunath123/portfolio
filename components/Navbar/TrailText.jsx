@@ -1,0 +1,7 @@
+import React from 'react'
+import { useTrail, a } from '@react-spring/web'
+export const Trail = ({ open, children, ...props }) => {
+  const items = React.Children.toArray(children)
+  const trail = useTrail(items.length, { opacity: open ? 1 : 0, transform: 'rotate(0deg)', y: 0, from: { opacity: 0, y: 20, transform: 'rotate(4deg)' } })
+  return <div {...props}>{trail.map((style, i) => <a.div key={i} style={style}>{items[i]}</a.div>)}</div>
+}
